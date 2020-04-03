@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:manipulacao/http/webclient.dart';
 import 'package:manipulacao/models/Inputar.dart';
+import 'package:manipulacao/models/catalogoEdicao.dart';
 
 void main() {
-  runApp(MyApp());
-  findAll().then((gerador) => print("nova lista: $gerador"));
+  runApp(CatalogoEdicao());
+  findAll().then((gerador) => print("nova lista produtos: $gerador"));
 }
 
 class MyApp extends StatelessWidget {
