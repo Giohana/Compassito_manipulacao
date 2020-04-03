@@ -6,8 +6,10 @@ import 'package:manipulacao/models/catalogoEdicao.dart';
 void main() {
   runApp(CatalogoEdicao());
   findAll().then((gerador) => print("nova lista produtos: $gerador"));
+  //rodando a pagina principal e tambem mostrando no terminal o json vindo da api
 }
 
+//teste feito inicialmente para se manipulr os itens, como se ele não for chamado não atrapalha, vou retira-lo apenas no final
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

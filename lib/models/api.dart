@@ -1,5 +1,9 @@
+/*
+ * Outro tipo de chamada get aprendida por mio do site: "http://www.macoratti.net/19/09/flut_weblvw1.htm", onde de forma mais
+ *simples foi explicada e feita a requisição, porem nesse não a o tratamento de request e response.
+*/
+
 import 'package:http/http.dart' as http;
-//import 'package:manipulacao/models/autoGenerate.dart';
 
 const baseUrl = "http://192.168.0.9:8091";
 

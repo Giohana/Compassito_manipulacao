@@ -1,3 +1,8 @@
+/*
+ * Nessa clase trata a transaformação do json vindo da api para um objeto dart.
+ * Aqui trata os tipos de itens.
+*/
+
 class TipoItem {
   int id;
   String descricao;
